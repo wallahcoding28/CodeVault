@@ -171,7 +171,7 @@ CodeVault/
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/CodeVault.git
+git clone https://github.com/wallahcoding28/CodeVault.git
 cd CodeVault
 
 # 2. Configure build with CMake
