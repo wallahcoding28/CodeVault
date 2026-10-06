@@ -1,0 +1,103 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake build directories & cache
+build/
+bin/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+# Visual Studio / VS Code
+.vscode/
+.vs/
+*.sln
+*.vcxproj*
+*.user
+
+# Clang / CLion
+.idea/
+.clang-format
+.clangd
+.clangd/
+cmake-build-*/
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# Database files
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# macOS / OS metadata
+.DS_Store
+Thumbs.db
+
+# Testing / Coverage
+*.gcda
+*.gcno
+*.info
+coverage/
+
+# Local logs, exports and user temp data
+*.log
+*.bak
+*.swp
+*.dmp
+CodeVault_All_Code.txt
+local_cache/
+temp/
+scratch/
+.cache/
+
+# Frontend dependencies and build artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# User persistence data (preserve sample development dataset)
+data/*
+!data/sample/
+!data/sample/**
+data/sample/*.bak
+
+
